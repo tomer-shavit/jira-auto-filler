@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true, // Enable browser globals like 'window'
+    "es2021": true, // ECMAScript 2021 globals
+    "node": true // Enable Node.js global variables
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12, // Allow modern ECMAScript features
+    "sourceType": "module" // Enable ECMAScript modules
+  },
+  "rules": {
+    "no-unused-vars": "off" // Define your custom rules here
+  },
+  "globals": {
+    "chrome": "readonly"
+  }
+}
