@@ -1,6 +1,6 @@
 # Jira Auto Filler 🚀
 
-![Jira Auto Filler Logo](path/to/your/logo.png)
+![Jira Auto Filler Logo](public/images/jira-autofiller-img.png)
 
 Welcome to **Jira Auto Filler**! This Chrome extension is designed to save you time by auto-filling Jira ticket details. No more repetitive manual entry – streamline your workflow and focus on what truly matters.
 
