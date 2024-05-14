@@ -2,18 +2,20 @@
   "manifest_version": 3,
   "name": "JIRA Autofiller",
   "version": "1.0",
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["contentScript.js"]
-    }
-  ],
+  "description": "A Chrome extension to auto-fill Jira tickets.",
   "permissions": ["activeTab", "scripting", "storage"],
   "action": {
     "default_popup": "index.html",
     "default_icon": {
-      "16": "favicon.ico"
+      "16": "images/jira-autofiller-img.png",
+      "48": "images/jira-autofiller-img.png",
+      "128": "images/jira-autofiller-img.png"
     }
+  },
+  "icons": {
+    "16": "images/jira-autofiller-img.png",
+    "48": "images/jira-autofiller-img.png",
+    "128": "images/jira-autofiller-img.png"
   },
   "content_scripts": [
     {
